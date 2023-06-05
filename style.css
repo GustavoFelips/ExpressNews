@@ -75,9 +75,12 @@ main > .coluna{
     width: 30%;
     display: flex;
     flex-direction: column;
+    
+
 }
 
 .noticia-foto, .noticia-escrita {
+    max-width: 800px;
     margin-bottom: 40px;
 }
 
@@ -96,4 +99,25 @@ p{
     font-size: 1em;
     text-indent: 10px;
     margin: 9px 0px 5px 0px;
+}
+
+footer{
+    margin-left: -20%;
+    width: 140%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer > h1{
+    color: white;
+}
+footer > span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer > span > p{
+    color: white;
 }
