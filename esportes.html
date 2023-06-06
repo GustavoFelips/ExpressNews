@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsExpress</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carrousel/carousel.css">
+    <script src="carrousel/carousel.js"></script>
+    <style>
+        header > #header2 > nav > ul >:nth-child(4){
+            background-color: green;}
+    </style>
+</head>
+<body>
+    <header>
+        <div id="header1">
+            <h1>News</h1>
+            <h1>Express</h1>
+        </div>
+        <div id="header2">
+            <nav>
+                <ul>
+                    <li><a href="index.html" rel="prev">Política</a></li>
+                    <li><a href="tecnologia.html" rel="next">Tecnologia</a></li>
+                    <li><a href="economia.html" rel="next">Economia</a></li>
+                    <li><a href="esportes.html" rel="#">Esportes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Carrousel-->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="imagens/esportes/car_esp01.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="imagens/esportes/car_esp02.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="imagens/esportes/car_esp03.png" style="width:100%">
+        </div>
+      
+        <!-- botões -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- Pontos -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+    <!--Fim do carrousel -->
+
+    <h1>Últimas notícias <hr></h1>
+    <main>
+        <article class="coluna">
+            <div class="noticia-foto">
+                <img src="imagens/esportes/esp01.png" alt="#" style="width:100%;">
+            </div>
+            <div class="noticia-escrita">
+                <h2>Ciclismo de Araraquara conquista cinco pódios em Barretos</h2>
+                <abbr title="jornalista">Por Portalmorada 23/05/2023</abbr>
+                <hr>
+                <p>A equipe da Fundesport conquistou importantes resultados em Barretos, no último fim de semana, pelo Campeonato Paulista de Ciclismo 2023.<br><br>
+                    Além de cinco pódios, os atletas de Araraquara também alcançaram outras boas colocações nas provas, disputadas entre o sábado (20) e principalmente no domingo, dia 21.</p>
+            </div>
+            <div class="noticia-foto">
+                <img src="imagens/esportes/esp02.png" alt="#" style="width:100%;">
+            </div>
+            <div class="noticia-escrita">
+                <h2>Evento comemora 60 anos do bicampeonato Mundial do basquete</h2>
+                <abbr title="jornalista">Por Redação do GE 25/05/2023</abbr>
+                <hr>
+                <p>
+                    Relembrar e homenagear é viver! Nesta quinta, em São Paulo, a Confederação Brasileira de Basquete (CBB) organizou um evento em comemoração dos 60 anos do bicampeonato Mundial da Seleção Brasileira masculina. Foram nove os atletas que estiveram presentes para receber a devida homenagem. Wlamir Marques foi eleito ao hall da fama, aos 85 anos.
+                </p>
+            </div>
+        </article>
+
+        <article class="coluna">
+            <div class="noticia-foto">
+                <img src="imagens/esportes/esp03.png" alt="#" style="width:100%;">
+            </div>
+            <div class="noticia-escrita">
+                <h2>3º GP Teresina de Ciclismo inicia nesta sexta com premiação de R$ 25 mil</h2>
+                <abbr title="jornalista">Por Redação do Portal AZ 26/05/2023</abbr>
+                <hr>
+                    <p>A terceira edição do GP Teresina de Ciclismo, um dos eventos mais esperados pelos ciclistas do Piauí e de outros estados do Brasil, inicia nesta sexta-feira (26). <br><br>
+                        Com uma premiação total de R$ 25 mil, o torneio marca o início oficial da temporada de ciclismo de estrada no estado. As competições acontecerão ao longo do sábado e domingo, com as provas realizadas na Av. Raul Lopes e nas subidas da Ponte Estaiada.</p>
+            </div>
+            <div class="noticia-foto">
+                <img src="imagens/esportes/esp04.png" alt="#" style="width:100%;">
+            </div>
+            <div class="noticia-foto">
+                <img src="imagens/esportes/esp05.png" alt="#" style="width:100%;">
+            </div>
+        </article>
+    </main>
+    <footer>
+        <h1>News Express</h1>
+        <span>
+            <p>	&copy;2023 NewsExpress</p>
+            <p>Gustavo | Victor | Matheus</p>
+        </span>
+    </footer>
+</body>
+</html>

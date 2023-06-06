@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsExpress</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carrousel/carousel.css">
+    <script src="carrousel/carousel.js"></script>
+    <style>
+        header > #header2 > nav > ul >:nth-child(2){
+            background-color: green;}
+    </style>
+</head>
+<body>
+    <header>
+        <div id="header1">
+            <h1>News</h1>
+            <h1>Express</h1>
+        </div>
+        <div id="header2">
+            <nav>
+                <ul>
+                    <li><a href="index.html" rel="prev">Política</a></li>
+                    <li><a href="tecnologia.html" rel="#">Tecnologia</a></li>
+                    <li><a href="economia.html" rel="next">Economia</a></li>
+                    <li><a href="esportes.html" rel="next">Esportes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Carrousel-->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="imagens/tecnologia/car_tec01.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="imagens/tecnologia/car_tec02.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="imagens/tecnologia/car_tec03.png" style="width:100%">
+        </div>
+      
+        <!-- botões -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- Pontos -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+    <!--Fim do carrousel -->
+
+    <h1>Últimas notícias <hr></h1>
+    <main>
+        <article class="coluna">
+            <div class="noticia-foto">
+                <img src="imagens/economia/eco01.png" alt="#" style="width:100%;">
+            </div>
+            <div class="noticia-escrita">
+                <h2>Como é possível ter privacidade em um mundo orientado por dados?</h2>
+                <abbr title="jornalista">Por Tamires Ferreira 17/05/2023</abbr>
+                <hr>
+                <p>Utilizar a internet e ambientes digitais atualmente é se equilibrar entre dois paradoxos.<br>
+                    Cada vez mais, os sites e ferramentas demandam nossas informações para entregarem bens e serviços personalizados e eficientes para todos.<br><br>
+                    Em contrapartida, a preocupação com a segurança dessas informações e o desejo de maior privacidade nunca foi tão latente quanto agora...</p>
+            </div>
+            <div class="noticia-foto">
+                <img src="imagens/economia/eco02.png" alt="#" style="width:100%;">
+            </div>
+            <div class="noticia-escrita">
+                <h2>Vazamento expõe dados de mais de 230 mil funcionários do governo dos EUA</h2>
+                <abbr title="jornalista">Por Tamires Ferreira 17/05/2023</abbr>
+                <hr>
+                <p>
+                    Um vazamento expôs os dados pessoais de 237 mil funcionários e ex-funcionários do governo dos EUA na última sexta-feira (12). Segundo a Reuters, a exposição ocorreu após uma violação no sistema de Departamento de Transportes dos Estados Unidos (USDOT).
+                    <br><br>violação atingiu os sistemas de processamento de benefícios de trânsito da TRANServe, que reembolsam funcionários do governo por custos de deslocamento;</p>
+            </div>
+        </article>
+
+        <article class="coluna">
+            <div class="noticia-foto">
+                <img src="imagens/economia/eco03.png" alt="#" style="width:100%;">
+            </div>
+            <div class="noticia-escrita">
+                <h2>Itália anuncia investimento para proteger empregos do avanço da IA</h2>
+                <abbr title="jornalista">Por Tamires Ferreira 17/05/2023</abbr>
+                <hr>
+                    <p>A Itália anunciou nesta terça-feira (16) um investimento de 30 milhões de euros (33 milhões de dólares) para preparar a população italiana para um mercado de trabalho que tem a inteligência artificial (IA) e a automação como aliadas e inimigas ao mesmo tempo.<br><br>
+                        O objetivo é melhorar as habilidades digitais daqueles que correm o risco de perder seu trabalho conforme o avanço das tecnologias.</p>
+            </div>
+            <div class="noticia-foto">
+                <img src="imagens/economia/eco04.png" alt="#" style="width:100%;">
+            </div>
+            <div class="noticia-foto">
+                <img src="imagens/economia/eco05.png" alt="#" style="width:100%;">
+            </div>
+        </article>
+    </main>
+    <footer>
+        <h1>News Express</h1>
+        <span>
+            <p>	&copy;2023 NewsExpress</p>
+            <p>Gustavo | Victor | Matheus</p>
+        </span>
+    </footer>
+</body>
+</html>
