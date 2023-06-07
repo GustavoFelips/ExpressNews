@@ -1,0 +1,124 @@
+@charset "PT-BR";
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,300;1,500;1,600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,300;1,500;1,600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,300;1,500;1,600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-bottom: 0;
+}
+
+:root{
+    --fontlogo:"Montserrat";
+    --fontmenu:"Roboto";
+    --fonttext:"Roboto Serif";
+}
+
+div#cabeca{
+    padding: 40px;
+    font-family:"Montserrat";
+    font-weight: bold;
+    flex-direction: column;
+   
+
+}
+header{
+    background-color: black;
+    color: white;
+    height: 200px;
+    text-align: center;
+    
+    
+}
+header>h1{
+    font-family:"Montserrat";
+    font-weight: bold;
+    font-size: 2em;
+    margin-left: 15px; 
+    margin-top: 0;
+    
+}
+div#cabeca>p{
+    font-family:"Montserrat";
+    font-weight: 0;
+    margin-left: 15px;
+    padding: 10px;
+  
+}
+
+.conteiner{
+    background-color: #04594D;
+    width: 30%;
+    height: 300px;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 115px;
+}
+
+
+
+div.conteiner>h1{
+    padding: 20px;
+    color: white;
+    font-family: var(--fontlogo);
+    font-weight: normal;
+}
+
+div.conteiner>p{
+    font-size: small;
+    color: white;
+    padding: 5px;
+    font-family: var(--fontmenu);
+}
+div.conteiner>p>a{
+    color: white;
+    outline: none;
+
+}
+
+input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    outline: none;
+}
+button{
+    width: 20%;
+    padding: 3px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:0;
+    height: 50px;
+    align-items: center;
+}
+
+footer>h1{
+    width: 50%;
+    text-align: center;
+    font-family: var(--font);
+    font-weight: bold;
+}
+
+footer>span{
+    width: 50%;
+    text-align: center;
+}
