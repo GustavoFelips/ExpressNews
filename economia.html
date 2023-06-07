@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsExpress</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carrousel/carousel.css">
+    <script src="carrousel/carousel.js"></script>
+    <style>
+        header > #header2 > nav > ul >:nth-child(3){
+            background-color: green;}
+    </style>
+</head>
+<body>
+    <header>
+        <div id="header1">
+            <h1>News</h1>
+            <h1>Express</h1>
+        </div>
+        <div id="header2">
+            <nav>
+                <ul>
+                    <li><a href="index.html" rel="prev">Política</a></li>
+                    <li><a href="tecnologia.html" rel="next">Tecnologia</a></li>
+                    <li><a href="economia.html" rel="#">Economia</a></li>
+                    <li><a href="esportes.html" rel="next">Esportes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Carrousel-->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="imagens/economia/car_eco01.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="imagens/economia/car_eco02.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="imagens/economia/car_eco03.png" style="width:100%">
+        </div>
+      
+        <!-- botões -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      <!-- Pontos -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
+    <!--Fim do carrousel -->
+
+    <h1>Últimas notícias <hr></h1>
+    <main>
+        <article class="coluna">
+            <div class="noticia-foto">
+                <img src="imagens/economia/eco01.png" alt="#" style="width:100%;">
+            </div>
+            <div class="noticia-escrita">
+                <h2>Mercado reduz estimativa de inflação de 6,03% para 5,8% neste ano e vê alta maior do PIB</h2>
+                <abbr title="jornalista">Por Alexandro Martello, g1 22/05/2023</abbr>
+                <hr>
+                <p>Os economistas do mercado financeiro reduziram a estimativa de inflação para 2023 de 6,03% para 5,80%, ao mesmo tempo em que passaram a projetar um crescimento maior do nível de atividade.
+                    <br><br>
+                    Pela cotação oficial, a nova nota equivalia a US$ 8,20, o que dá cerca de R$ 40. No paralelo, porém, o valor equivale pouco mais de US$ 5, cerca de R$ 20.
+                </p>
+            </div>
+            <div class="noticia-foto">
+                <img src="imagens/economia/eco02.png" alt="#" style="width:100%;">
+            </div>
+            <div class="noticia-escrita">
+                <h2>Argentina lança cédula de 2 mil pesos em meio à escalada da inflação.</h2>
+                <abbr title="jornalista">Por Valor Online 22/05/2023</abbr>
+                <hr>
+                <p>
+                    A Argentina pôs em circulação nesta segunda-feira (22) a nova cédula de 2 mil pesos, a maior em valor nominal, em um contexto de escalada da inflação acelerada.<br><br>
+                    Pela cotação oficial, a nova nota equivalia a US$ 8,20, o que dá cerca de R$ 40. No paralelo, porém, o valor equivale pouco mais de US$ 5, cerca de R$ 20.</p>
+            </div>
+        </article>
+
+        <article class="coluna">
+            <div class="noticia-foto">
+                <img src="imagens/economia/eco03.png" alt="#" style="width:100%;">
+            </div>
+            <div class="noticia-escrita">
+                <h2>Conselho de Administração da Oi aprova novo plano de recuperação judicial</h2>
+                <abbr title="jornalista">Por g1 20/05/2023</abbr>
+                <hr>
+                    <p>O Conselho de Administração da Oi, em reunião na sexta-feira (19), aprovou os termos do seu novo plano de recuperação judicial.
+                        <br><br>
+                        📊 Contexto: Em março, a 7ª Vara Empresarial do Rio de Janeiro aceitou o segundo pedido de recuperação de judicial da Oi, depois de a empresa ter saído do processo anterior, que levou seis anos para ser concluído.
+                    </p>
+            </div>
+            <div class="noticia-foto">
+                <img src="imagens/economia/eco04.png" alt="#" style="width:100%;">
+            </div>
+            <div class="noticia-foto">
+                <img src="imagens/economia/eco05.png" alt="#" style="width:100%;">
+            </div>
+        </article>
+    </main>
+    <footer>
+        <h1>News Express</h1>
+        <span>
+            <p>	&copy;2023 NewsExpress</p>
+            <p>Gustavo | Victor | Matheus</p>
+        </span>
+    </footer>
+</body>
+</html>
