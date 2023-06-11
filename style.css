@@ -133,11 +133,9 @@ main{
 }
 
 main > .coluna{
-    width: 30%;
+    width: 38%;
     display: flex;
     flex-direction: column;
-    
-
 }
 
 .noticia-foto, .noticia-escrita {
@@ -232,10 +230,15 @@ footer > span > p{
         display: flex;
         align-items: center;
         flex-direction: column;
+        justify-content: center;
     }
     footer > h1{
         color: white;
         font-size: 1.5em;
         margin-bottom: 5px;
+    }
+    footer > span > p{
+        font-size: 0.8em;
+        text-align: center;
     }
 }
